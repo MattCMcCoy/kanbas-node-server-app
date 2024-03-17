@@ -1,4 +1,4 @@
-import db from "../Database/index.tsx";
+import db from "../Database/index.js";
 
 function ModulesRoutes(app) {
   app.post("/api/courses/:cid/modules", (req, res) => {
