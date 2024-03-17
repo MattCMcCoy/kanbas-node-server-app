@@ -1,4 +1,4 @@
-import Database from "../Database/index.js";
+import Database from "../Database/index.tsx";
 function CourseRoutes(app) {
   app.get("/api/courses", (req, res) => {
     const courses = Database.courses;

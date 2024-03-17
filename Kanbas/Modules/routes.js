@@ -1,3 +1,5 @@
+import db from "../Database/index.tsx";
+
 function ModulesRoutes(app) {
   app.post("/api/courses/:cid/modules", (req, res) => {
     const { cid } = req.params;
